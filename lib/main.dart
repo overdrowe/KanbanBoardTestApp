@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kanban_board/auth/auth_repository.dart';
 import 'package:kanban_board/pages/login_page.dart';
 
 void main() {

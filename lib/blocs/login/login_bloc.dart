@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kanban_board/auth/auth_repository.dart';
-import 'package:kanban_board/auth/form_submission_status.dart';
+import 'package:kanban_board/page_state/form_submission_status.dart';
 import 'package:kanban_board/blocs/login/login_event.dart';
 import 'package:kanban_board/blocs/login/login_state.dart';
+import 'package:kanban_board/repositories/auth_repository.dart';
 
 class LoginBloc extends Bloc<LoginEvent, LoginState> {
   final AuthRepository authRepo;

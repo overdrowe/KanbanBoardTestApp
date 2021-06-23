@@ -1,4 +1,4 @@
-import 'package:kanban_board/auth/form_submission_status.dart';
+import 'package:kanban_board/page_state/form_submission_status.dart';
 import 'package:kanban_board/models/kanban_card.dart';
 
 class HomeState {

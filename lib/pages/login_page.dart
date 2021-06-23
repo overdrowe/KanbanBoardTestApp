@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kanban_board/auth/auth_repository.dart';
-import 'package:kanban_board/auth/form_submission_status.dart';
+import 'package:kanban_board/page_state/form_submission_status.dart';
 import 'package:kanban_board/blocs/login/login_bloc.dart';
 import 'package:kanban_board/blocs/login/login_event.dart';
 import 'package:kanban_board/blocs/login/login_state.dart';
 import 'package:kanban_board/pages/home_page.dart';
+import 'package:kanban_board/repositories/auth_repository.dart';
 import 'package:kanban_board/widgets/custom_app_bar.dart';
 import 'package:kanban_board/widgets/custom_button.dart';
 import 'package:kanban_board/widgets/custom_text_field.dart';

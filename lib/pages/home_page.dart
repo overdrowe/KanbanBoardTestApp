@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kanban_board/app_style/app_style.dart';
-import 'package:kanban_board/auth/form_submission_status.dart';
-import 'package:kanban_board/auth/user_repository.dart';
+import 'package:kanban_board/page_state/form_submission_status.dart';
 import 'package:kanban_board/blocs/home/home_bloc.dart';
 import 'package:kanban_board/blocs/home/home_event.dart';
 import 'package:kanban_board/blocs/home/home_state.dart';
 import 'package:kanban_board/models/kanban_card.dart';
 import 'package:kanban_board/pages/login_page.dart';
+import 'package:kanban_board/repositories/user_repository.dart';
 import 'package:kanban_board/widgets/custom_app_bar.dart';
 
 class HomePage extends StatelessWidget {
